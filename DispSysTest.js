@@ -21,7 +21,7 @@ function onFormSubmit(e){
     html+= '<div><b>'+key+' '+'</b>:'+formValues[key] +'</div>';
     
   }
-  html+= "<br><br><div style='text-align:center; font-style:italic;'> Disclaimer: This letter dispatch no. is system generated and it is intended to be used only for letters signed officially. </div> <div style='text-align:center'><hr><h4> Request for another letter dispatch no. <a href='https://forms.gle/fFQnx2gvE7S71nLD8' target='_blank'>Click Here</a> </h4><h6> Powered by G Suite Team, DITT | support@gov.bt </h6><hr><br></div> ";
+  html+= "<br><br><div style='text-align:center; font-style:italic;'> Disclaimer: This letter dispatch no. is system generated and it is intended to be used only for letters signed officially. </div> <div style='text-align:center'><hr><h4> Request for another letter dispatch no. <a href='https://forms.gle/fFQnx2gvE7S71nLD8' target='_blank'>Click Here</a> </h4><h6> Powered by G Suite Team, DITT | support@gov.bt | System courtesy of GoogleTeam, DITT, MoIC </h6><hr><br></div> ";
   
   
   //Send Email
